@@ -9,16 +9,23 @@ Status do Projeto
 A seção "Análise do Problema Atual" abaixo detalha a investigação e o estado atual do problema.
 
 Tecnologias Utilizadas
+
 n8n: Plataforma de automação de workflows.
+
 Docker & Docker Compose: Para criação e orquestração do ambiente de desenvolvimento.
+
 TypeScript: Linguagem principal para o desenvolvimento do nó.
+
 Node.js / npm: Para gerenciamento de dependências e execução de scripts.
+
 PostgreSQL: Banco de dados para a instância do n8n.
 
 Instruções de Instalação e Execução
+
 Estas são as instruções para replicar o ambiente e executar o projeto localmente.
 
 Pré-requisitos
+
 Docker e Docker Compose instalados e em execução na sua máquina.
 
 Passos
@@ -28,7 +35,11 @@ Passos
 Bash
 
 git clone <URL_DO_SEU_REPOSITORIO>
-cd desafio-n8n 2. Instalar Dependências do Nó
+
+cd desafio-n8n 
+
+2. Instalar Dependências do Nó
+
 Navegue até a pasta do nó customizado e instale as dependências de desenvolvimento usando npm.
 
 Bash
