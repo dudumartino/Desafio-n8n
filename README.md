@@ -1,34 +1,27 @@
-Desafio Técnico n8n - Conector de Número Aleatório
-
+**Desafio Técnico n8n - Conector de Número Aleatório**  
 Este repositório contém a solução para o desafio técnico de criação de um nó customizado para a plataforma de automação n8n. O objetivo foi desenvolver um conector que busca um número aleatório através da API pública da random.org.
 
-Status do Projeto
-
+**Status do Projeto**  
 ⚠️ Parcialmente Funcional: Todo o código do nó, a configuração do ambiente e a infraestrutura com Docker foram implementados com sucesso. O código compila sem erros, mas o projeto enfrenta um problema de runtime no qual o n8n, apesar de iniciar corretamente, não registra/exibe o nó customizado na sua interface de usuário.
 
 A seção "Análise do Problema Atual" abaixo detalha a investigação e o estado atual do problema.
 
-Tecnologias Utilizadas
+**Tecnologias Utilizadas**  
+.n8n: Plataforma de automação de workflows.  
+.Docker & Docker Compose: Para criação e orquestração do ambiente de desenvolvimento.  
+.TypeScript: Linguagem principal para o desenvolvimento do nó.  
+.Node.js / npm: Para gerenciamento de dependências e execução de scripts.  
+.PostgreSQL: Banco de dados para a instância do n8n.  
 
-.n8n: Plataforma de automação de workflows.
-
-.Docker & Docker Compose: Para criação e orquestração do ambiente de desenvolvimento.
-
-.TypeScript: Linguagem principal para o desenvolvimento do nó.
-
-.Node.js / npm: Para gerenciamento de dependências e execução de scripts.
-
-.PostgreSQL: Banco de dados para a instância do n8n.
-
-Instruções de Instalação e Execução
+**Instruções de Instalação e Execução**
 
 Estas são as instruções para replicar o ambiente e executar o projeto localmente.
 
-Pré-requisitos
+**Pré-requisitos**
 
 .Docker e Docker Compose instalados e em execução na sua máquina.
 
-Passos
+**Passos**
 
 1. Clonar o Repositório
 
@@ -60,7 +53,7 @@ docker-compose up
 
 Após a inicialização, a instância do n8n estará acessível em http://localhost:5678.
 
-Como Testar
+**Como Testar**
 
 Após iniciar os serviços, o teste funcional seria:
 
