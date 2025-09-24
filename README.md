@@ -1,4 +1,5 @@
 Desafio Técnico n8n - Conector de Número Aleatório
+
 Este repositório contém a solução para o desafio técnico de criação de um nó customizado para a plataforma de automação n8n. O objetivo foi desenvolver um conector que busca um número aleatório através da API pública da random.org.
 
 Status do Projeto
@@ -9,13 +10,9 @@ A seção "Análise do Problema Atual" abaixo detalha a investigação e o estad
 
 Tecnologias Utilizadas
 n8n: Plataforma de automação de workflows.
-
 Docker & Docker Compose: Para criação e orquestração do ambiente de desenvolvimento.
-
 TypeScript: Linguagem principal para o desenvolvimento do nó.
-
 Node.js / npm: Para gerenciamento de dependências e execução de scripts.
-
 PostgreSQL: Banco de dados para a instância do n8n.
 
 Instruções de Instalação e Execução
