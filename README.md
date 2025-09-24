@@ -2,6 +2,7 @@ Desafio Técnico n8n - Conector de Número Aleatório
 Este repositório contém a solução para o desafio técnico de criação de um nó customizado para a plataforma de automação n8n. O objetivo foi desenvolver um conector que busca um número aleatório através da API pública da random.org.
 
 Status do Projeto
+
 ⚠️ Parcialmente Funcional: Todo o código do nó, a configuração do ambiente e a infraestrutura com Docker foram implementados com sucesso. O código compila sem erros, mas o projeto enfrenta um problema de runtime no qual o n8n, apesar de iniciar corretamente, não registra/exibe o nó customizado na sua interface de usuário.
 
 A seção "Análise do Problema Atual" abaixo detalha a investigação e o estado atual do problema.
