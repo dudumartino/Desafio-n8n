@@ -32,8 +32,6 @@ Passos
 
 1. Clonar o Repositório
 
-Bash
-
 git clone <URL_DO_SEU_REPOSITORIO>
 
 cd desafio-n8n 
@@ -63,17 +61,19 @@ docker-compose up
 Após a inicialização, a instância do n8n estará acessível em http://localhost:5678.
 
 Como Testar
+
 Após iniciar os serviços, o teste funcional seria:
 
-Acessar http://localhost:5678 no navegador.
+.Acessar http://localhost:5678 no navegador.
 
-Criar um novo workflow em branco ("Start from scratch").
+.Criar um novo workflow em branco ("Start from scratch").
 
-Clicar no + para adicionar um novo nó e, na barra de busca, procurar por "Random Number".
+.Clicar no + para adicionar um novo nó e, na barra de busca, procurar por "Random Number".
 
-Ponto do Problema: Atualmente, o nó não aparece nos resultados da busca, o que impede a continuação do teste.
+.Ponto do Problema: Atualmente, o nó não aparece nos resultados da busca, o que impede a continuação do teste.
 
 Análise do Problema Atual (Informação Relevante)
+
 O desafio principal encontrado foi um problema de "carregamento silencioso". Após resolver uma série de desafios de configuração e dependências, chegamos ao seguinte estado:
 
 Sintoma: O contêiner do n8n inicia com sucesso, sem erros ou travamentos. A interface web fica totalmente acessível. No entanto, o nó customizado Random Number não é registrado e não aparece na lista de nós disponíveis.
