@@ -1,0 +1,21 @@
+{
+  "name": "n8n-nodes-custom-random",
+  "version": "0.1.0",
+  "description": "Nó customizado para gerar números aleatórios.",
+  "license": "MIT",
+  "main": "dist/Random.node.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "n8n-core": "1.40.0",
+    "n8n-workflow": "1.40.0",
+    "typescript": "~4.8.4"
+  },
+  "n8n": {
+    "nodes": [
+      "dist/Random.node.js"
+    ]
+  }
+}

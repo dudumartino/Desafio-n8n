@@ -1,0 +1,14 @@
+# Dependências
+node_modules/
+
+# Arquivos de Build
+dist/
+
+# Logs
+*.log
+
+# Dados do Banco de Dados Docker
+postgres-data/
+
+# Variáveis de Ambiente
+.env
