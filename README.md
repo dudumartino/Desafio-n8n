@@ -10,15 +10,15 @@ A seção "Análise do Problema Atual" abaixo detalha a investigação e o estad
 
 Tecnologias Utilizadas
 
-n8n: Plataforma de automação de workflows.
+.n8n: Plataforma de automação de workflows.
 
-Docker & Docker Compose: Para criação e orquestração do ambiente de desenvolvimento.
+.Docker & Docker Compose: Para criação e orquestração do ambiente de desenvolvimento.
 
-TypeScript: Linguagem principal para o desenvolvimento do nó.
+.TypeScript: Linguagem principal para o desenvolvimento do nó.
 
-Node.js / npm: Para gerenciamento de dependências e execução de scripts.
+.Node.js / npm: Para gerenciamento de dependências e execução de scripts.
 
-PostgreSQL: Banco de dados para a instância do n8n.
+.PostgreSQL: Banco de dados para a instância do n8n.
 
 Instruções de Instalação e Execução
 
@@ -26,7 +26,7 @@ Estas são as instruções para replicar o ambiente e executar o projeto localme
 
 Pré-requisitos
 
-Docker e Docker Compose instalados e em execução na sua máquina.
+.Docker e Docker Compose instalados e em execução na sua máquina.
 
 Passos
 
@@ -42,21 +42,24 @@ cd desafio-n8n
 
 Navegue até a pasta do nó customizado e instale as dependências de desenvolvimento usando npm.
 
-Bash
-
 cd .n8n/custom
-npm install 3. Compilar o Nó Customizado
+
+npm install 
+
+3. Compilar o Nó Customizado
+
 Com as dependências instaladas, compile o código TypeScript para JavaScript. Este comando criará uma pasta dist com o arquivo final.
 
-Bash
+npm run build 
 
-npm run build 4. Executar o Serviço Localmente com Docker
+4. Executar o Serviço Localmente com Docker
+
 Volte para a pasta raiz do projeto e inicie os contêineres do n8n e do PostgreSQL.
 
-Bash
-
 cd ../..
+
 docker-compose up
+
 Após a inicialização, a instância do n8n estará acessível em http://localhost:5678.
 
 Como Testar
